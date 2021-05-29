@@ -2,10 +2,15 @@
 <html lang="en">
     <head>
         <title>Food Blog</title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">   
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"> 
+    
     </head>
     <body>
         <header> 
@@ -21,15 +26,22 @@
                         <a href="reviews.html">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <strong>Reccomendations Map</strong>
+                        <strong>Map</strong>
                     </li>
                     <li class="nav-item">
                         <a href="about.html">About</a>
                     </li>
                 </ul>
             </nav>
-            <section id="main-content">
-                Reccomendations/ interactive js map will go in this page
+            <section id="map">
+                <div id="mapid"></div>
+                <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+                integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+                crossorigin=""></script>
+                
+                <script src="leaflet-providers.js"></script>
+        
+                <script type="text/javascript" src="main.js"></script>
             </section>
         </main>
     </body>
