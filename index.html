@@ -10,6 +10,7 @@
     <body>
         <header> 
             <h1>Food Blog</h1>
+            <i class="fas fa-utensils fa-2x"></i>
         </header>
         <main> 
             <nav>
@@ -21,16 +22,45 @@
                         <a href="reviews.html">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a href="recs.html">Reccomendations Map</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html">About</a>
+                        <a href="recs.html">Map</a>
                     </li>
                 </ul>
             </nav>
-            <section id="main-content">
-                Main content section
+            <section id="homepage">
+                <div id="welcome">
+                    <svg viewBox="0 0 960 300">
+                        <symbol id="s-text">
+                          <text text-anchor="middle" x="50%" y="80%">Welcome!</text>
+                        </symbol>
+                      
+                        <g class = "g-ants">
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                          <use xlink:href="#s-text" class="text-copy"></use>
+                        </g>
+                      </svg>
+                </div>
+                <h3 id="intro"> My friends and I love trying new restaraunts and cuisines around the Chicagoland area, so i've put together a little site to review some of our favorite spots.</h3>
+                <div class="home-pic">
+                    <img id="skyline" src="images/ClipartKey_323986.png">
+                </div>
+                <div id="about">
+                    <h2>About Me</h2>
+                    <img class="prof" src="images/IMG_5204.jpg">
+                    <p>My name is Laina Suarez and I am a junior at Northwestern University studying Journalism and Psychology. In my free time I love cooking for my friends and experimenting with new recipies, but when I'm too lazy to cook, it's always fun to check out the new (or old) hotspots around town!</p>
+                    <ul class="socialmedia">
+                        <li>
+                            <a href="https://www.instagram.com/lainasuarez/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/lainasuarez?lang=en"><i class="fab fa-twitter fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
+        <script src="https://kit.fontawesome.com/1c2eff02ac.js" crossorigin="anonymous"></script>
     </body>
 </html>
